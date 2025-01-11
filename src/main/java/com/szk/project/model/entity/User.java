@@ -16,7 +16,7 @@ public class User implements Serializable {
     /**
      * id
      */
-    @TableId(type = IdType.AUTO)
+    @TableId(type = IdType.ASSIGN_ID)
     private Long id;
 
     /**
@@ -43,6 +43,16 @@ public class User implements Serializable {
      * 用户角色：user/admin
      */
     private String userRole;
+
+    /**
+     * accessKey
+     */
+    private String accessKey;
+
+    /**
+     * secretKey
+     */
+    private String secretKey;
 
     /**
      * 密码

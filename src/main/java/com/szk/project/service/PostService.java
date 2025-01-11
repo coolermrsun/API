@@ -1,12 +1,9 @@
 package com.szk.project.service;
 
-import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
-import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.szk.project.model.dto.post.PostQueryRequest;
+
 import com.szk.project.model.entity.Post;
-import com.szk.project.model.vo.PostVO;
-import javax.servlet.http.HttpServletRequest;
+
 
 /**
  * 帖子服务
