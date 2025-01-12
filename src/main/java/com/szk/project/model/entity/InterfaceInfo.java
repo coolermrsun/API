@@ -68,7 +68,10 @@ public class InterfaceInfo implements Serializable {
      * 更新时间
      */
     private Date updateTime;
-
+    /**
+     * 请求参数
+     */
+    private String requestParams;
     /**
      * 是否删除 (0-未删除, 1-已删除)
      */

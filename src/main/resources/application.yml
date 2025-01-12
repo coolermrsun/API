@@ -66,12 +66,12 @@ mybatis-plus:
       logic-not-delete-value: 0 # 逻辑未删除值（默认为 0）
 # 对象存储
 # todo 需替换配置
-cos:
-  client:
-    accessKey: xxx
-    secretKey: xxx
-    region: xxx
-    bucket: xxx
+#cos:
+#  client:
+#    region: xxx
+#    bucket: xxx
+#    access-key: szk
+#    secret-key: abcdefgh
 # 接口文档配置
 knife4j:
   enable: true
@@ -83,3 +83,8 @@ knife4j:
         api-rule: package
         api-rule-resources:
           - com.szk.project.controller
+szkapi:
+  client:
+    access-key: szk
+    secret-key: abcdefgh
+

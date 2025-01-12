@@ -13,6 +13,7 @@
             <result property="method" column="method" jdbcType="VARCHAR"/>
             <result property="requestHeader" column="requestHeader" jdbcType="VARCHAR"/>
             <result property="responseHeader" column="responseHeader" jdbcType="VARCHAR"/>
+            <result property="requestParams" column="requestParams" jdbcType="VARCHAR"/>
             <result property="status" column="status" jdbcType="TINYINT"/>
             <result property="createTime" column="createTime" jdbcType="TIMESTAMP"/>
             <result property="updateTime" column="updateTime" jdbcType="TIMESTAMP"/>
@@ -23,6 +24,6 @@
         id,userId,name,
         description,url,method,
         requestHeader,responseHeader,status,
-        createTime,updateTime,isDelete
+        createTime,updateTime,isDelete,requestParams,
     </sql>
 </mapper>

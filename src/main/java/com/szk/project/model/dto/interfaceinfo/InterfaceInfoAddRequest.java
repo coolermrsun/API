@@ -48,4 +48,5 @@ public class InterfaceInfoAddRequest implements Serializable {
      */
     private String method;
 
+
 }
