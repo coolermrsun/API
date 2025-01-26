@@ -13,12 +13,10 @@ import com.szk.project.constant.UserConstant;
 import com.szk.project.exception.BusinessException;
 import com.szk.project.exception.ThrowUtils;
 import com.szk.project.model.dto.post.PostAddRequest;
-import com.szk.project.model.dto.post.PostEditRequest;
 import com.szk.project.model.dto.post.PostQueryRequest;
 import com.szk.project.model.dto.post.PostUpdateRequest;
 import com.szk.project.model.entity.Post;
-import com.szk.project.model.entity.User;
-import com.szk.project.model.vo.PostVO;
+import com.szk.szkapicommon.model.entity.User;
 import com.szk.project.service.PostService;
 import com.szk.project.service.UserService;
 import java.util.List;
@@ -36,8 +34,7 @@ import org.springframework.web.bind.annotation.RestController;
 /**
  * 帖子接口
  *
- * @author <a href="https://github.com/liyupi">程序员鱼皮</a>
- * @from <a href="https://yupi.icu">编程导航知识星球</a>
+
  */
 @RestController
 @RequestMapping("/post")

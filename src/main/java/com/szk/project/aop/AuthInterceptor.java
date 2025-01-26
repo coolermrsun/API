@@ -4,7 +4,7 @@ import com.baomidou.mybatisplus.core.toolkit.CollectionUtils;
 import com.szk.project.annotation.AuthCheck;
 import com.szk.project.common.ErrorCode;
 import com.szk.project.exception.BusinessException;
-import com.szk.project.model.entity.User;
+import com.szk.szkapicommon.model.entity.User;
 import com.szk.project.service.UserService;
 import org.apache.commons.lang3.StringUtils;
 import org.aspectj.lang.ProceedingJoinPoint;
@@ -23,9 +23,6 @@ import java.util.stream.Collectors;
 
 /**
  * 权限校验 AOP
- *
- * @author <a href="https://github.com/liyupi">程序员鱼皮</a>
- * @from <a href="https://yupi.icu">编程导航知识星球</a>
  */
 @Aspect
 @Component
@@ -33,8 +30,6 @@ public class AuthInterceptor {
 
     @Resource
     private UserService userService;
-
-    // https://t.zsxq.com/0emozsIJh
 
     /**
      * 执行拦截

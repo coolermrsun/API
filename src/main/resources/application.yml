@@ -1,6 +1,5 @@
 # 公共配置文件
-# @author <a href="https://github.com/liyupi">程序员鱼皮</a>
-# @from <a href="https://yupi.icu">编程导航知识星球</a>
+
 spring:
   application:
     name: szkapi-backend
@@ -85,6 +84,15 @@ knife4j:
           - com.szk.project.controller
 szkapi:
   client:
-    access-key: szk
+    access-key: 899739fd227c08425d2653ce7e8833f697f7c641ca46288752c5dce5d217f11b
     secret-key: abcdefgh
-
+dubbo:
+  application:
+    name: dubbo-springboot-demo-provider
+  protocol:
+    name: dubbo
+    threads: 200
+    port: -1
+  registry:
+    id: nacos-registry
+    address: nacos://localhost:8848

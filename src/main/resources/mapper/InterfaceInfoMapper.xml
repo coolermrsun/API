@@ -26,4 +26,5 @@
         requestHeader,responseHeader,status,
         createTime,updateTime,isDelete,requestParams,
     </sql>
+    <select id="listTopInvokeInterfaceInfo" resultType="com.szk.project.model.entity.UserInterfaceInfo"></select>
 </mapper>

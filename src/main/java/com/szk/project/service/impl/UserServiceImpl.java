@@ -10,23 +10,22 @@ import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.szk.project.common.ErrorCode;
 import com.szk.project.exception.BusinessException;
 import com.szk.project.mapper.UserMapper;
-import com.szk.project.model.entity.User;
+import com.szk.szkapicommon.model.entity.User;
 import com.szk.project.service.UserService;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
-import org.springframework.beans.factory.annotation.Autowired;
+
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
+
 import org.springframework.util.DigestUtils;
 
 /**
  * 用户服务实现
  *
- * @author <a href="https://github.com/liyupi">程序员鱼皮</a>
- * @from <a href="https://yupi.icu">编程导航知识星球</a>
+
  */
 @Service
 @Slf4j

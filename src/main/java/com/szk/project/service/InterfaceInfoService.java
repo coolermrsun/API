@@ -1,12 +1,7 @@
 package com.szk.project.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.szk.project.common.ErrorCode;
-import com.szk.project.exception.BusinessException;
-import com.szk.project.exception.ThrowUtils;
-import com.szk.project.model.entity.InterfaceInfo;
-import com.szk.project.model.entity.Post;
-import org.apache.commons.lang3.StringUtils;
+import com.szk.szkapicommon.model.entity.InterfaceInfo;
 
 /**
 * @author 孙枝坤

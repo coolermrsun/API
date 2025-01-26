@@ -12,7 +12,7 @@ import com.szk.project.constant.UserConstant;
 import com.szk.project.exception.BusinessException;
 import com.szk.project.exception.ThrowUtils;
 import com.szk.project.model.dto.user.*;
-import com.szk.project.model.entity.User;
+import com.szk.szkapicommon.model.entity.User;
 import com.szk.project.model.vo.UserVO;
 import com.szk.project.service.UserService;
 
@@ -36,8 +36,7 @@ import static com.szk.project.service.impl.UserServiceImpl.SALT;
 /**
  * 用户接口
  *
- * @author <a href="https://github.com/liyupi">程序员鱼皮</a>
- * @from <a href="https://yupi.icu">编程导航知识星球</a>
+
  */
 @RestController
 @RequestMapping("/user")

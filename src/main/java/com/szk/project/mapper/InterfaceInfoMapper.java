@@ -1,7 +1,7 @@
 package com.szk.project.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.szk.project.model.entity.InterfaceInfo;
+import com.szk.szkapicommon.model.entity.InterfaceInfo;
 
 /**
 * @author 孙枝坤
@@ -10,7 +10,6 @@ import com.szk.project.model.entity.InterfaceInfo;
 * @Entity com.szk.project.model.entity.InterfaceInfo
 */
 public interface InterfaceInfoMapper extends BaseMapper<InterfaceInfo> {
-
 }
 
 

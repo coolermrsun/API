@@ -11,8 +11,8 @@ import com.szk.project.model.dto.interfaceinfo.InterfaceInfoAddRequest;
 import com.szk.project.model.dto.interfaceinfo.InterfaceInfoInvokeRequest;
 import com.szk.project.model.dto.interfaceinfo.InterfaceInfoQueryRequest;
 import com.szk.project.model.dto.interfaceinfo.InterfaceInfoUpdateRequest;
-import com.szk.project.model.entity.InterfaceInfo;
-import com.szk.project.model.entity.User;
+import com.szk.szkapicommon.model.entity.InterfaceInfo;
+import com.szk.szkapicommon.model.entity.User;
 import com.szk.project.model.enums.InterfaceInfoStatusEnum;
 import com.szk.project.service.InterfaceInfoService;
 import com.szk.project.service.UserService;
@@ -20,7 +20,6 @@ import com.szk.szkapiclientsdk.client.SzkApiClient;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.BeanUtils;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
@@ -30,8 +29,7 @@ import java.util.List;
 /**
  * 帖子接口
  *
- * @author <a href="https://github.com/liyupi">程序员鱼皮</a>
- * @from <a href="https://yupi.icu">编程导航知识星球</a>
+
  */
 @RestController
 @RequestMapping("/interfaceInfo")
