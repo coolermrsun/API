@@ -1,0 +1,23 @@
+server:
+  port: 8081
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: api_route
+          uri: http://localhost:8080
+          predicates:
+            - Path=/api/{api_url}/**
+logging:
+  level:
+    org:
+      springframework:
+        cloud:
+          gateway: trace
+dubbo:
+  application:
+    name: demo-consumer
+  registry:
+    address: nacos://localhost:8848  # 这里要和 Provider 端保持一致
+  consumer:
+    check: false  # 避免启动时报错

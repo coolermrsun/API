@@ -1,0 +1,8 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /api
+szkapi:
+  client:
+    access-key: szk
+    secret-key: abcdefgh
